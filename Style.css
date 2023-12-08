@@ -17,7 +17,7 @@ head{
   text-align: center;
   font-size: larger;
   height: fit-content;
-  width: 200px;
+  width: 300px;
   margin: 10px auto;
   padding: 10px;
   border-radius: 20px;
@@ -45,7 +45,7 @@ footer{
   height: fit-content;
   width: auto;
   padding: 5px;
-  font-size: 60%;
+  font-size: small;
 }
 .list1 li{
   text-align: left;
@@ -71,7 +71,7 @@ footer{
 .gambar1{
   text-align: center;
   border-radius: 10px;
-  width: 30%;
+  width: 300px;
 }
 img.gambar2{
   border-radius: 10px;
