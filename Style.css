@@ -39,10 +39,12 @@ p.bagus{
 }
 
 footer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: grey;
   height: fit-content;
   width: auto;
   padding: 5px;
+  font-size: 60%;
 }
 .list1 li{
   text-align: left;
@@ -67,6 +69,9 @@ footer{
 
 .gambar1{
   text-align: center;
+  border-radius: 10px;
+  height: auto;
+  width: 40%;
 }
 img.gambar2{
   border-radius: 10px;
