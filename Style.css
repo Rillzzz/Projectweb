@@ -67,11 +67,17 @@ footer{
 
 .gambar1{
   text-align: center;
-  padding: 10px;
 }
 img.gambar2{
   border-radius: 10px;
   height: 40%;
   width: auto;
+}
+.list3 a{
+  text-decoration: none;
+  color: #000000;
+}
+.list3 a:hover{
+  color: #ffffff;
 }
 
