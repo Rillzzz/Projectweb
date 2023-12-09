@@ -1,88 +1,81 @@
 *{
-  font-family: 'Times New Roman', Times, serif;
-}
-head{
-  text-align: center;
-}
-.anjay{
-  text-align: center;
-  background-color: #002f49f6;
-  color: #ffffff;
-  padding:20px;
-  font-size: larger;
+  padding-top: 5px;
+  margin: 0;
+  text-decoration: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.nama{
-  background-color: #ffc438;
-  text-align: center;
-  font-size: larger;
-  height: fit-content;
-  width: 300px;
-  margin: 10px auto;
-  padding: 10px;
-  border-radius: 20px;
+.utama{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.75)), url("ai1.jpg");
+  background-size:100%;
+  background-position: center;
+  text-align: right;
 }
 
 nav a{
   text-decoration: none;
-  color:#000000;
-}
-
-nav a:hover{
-  color: #ffffff;
-  font-weight: bolder;
-}
-
-p.bagus{
-  text-align: justify;
-  margin: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-footer{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: grey;
-  height: fit-content;
-  width: auto;
-  padding: 5px;
-  font-size: small;
-}
-.list1 li{
-  text-align: left;
-  list-style-type: none;
-  display: inline;
-}
-
-.list2{
-  background-color: #1868aa;
-  font-size-adjust: 10% ;
-  border-radius: 20px;
-  padding: 10px;
-}
-.list2 a{
-  text-decoration: none;
   color: #ffffff;
 }
-.list2 a:hover{
-  color: #ffc438;
-  font-weight: bolder;
+
+.navbar{
+  margin: 5px; 
+  padding: 15px;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
 }
 
-.gambar1{
+.judul{
+  top: 40%;
+  width: 100%;
   text-align: center;
-  color: #ffffff;
-  padding:20px;
-  border-radius: 20px;
-}
-.gambar2{
-  border-radius: 15px;
+  color: white;
+  position: absolute;
 }
 
-.list3 a{
-  text-decoration: none;
-  color: #000000;
+.judul1{
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
 }
-.list3 a:hover{
-  color: #ffffff;
+
+.navbar ul li{
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+  position: relative;
+  text-align: right;
+}
+
+.navbar ul li a{
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar ul a:hover{
+  color: #ffc438;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #1873d3;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  transition: 0.7s;
+}
+
+.list a:hover{
+  color: #1873d3;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
 }
 
