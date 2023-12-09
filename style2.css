@@ -1,0 +1,102 @@
+
+body{
+    text-align: justify;
+}
+
+h1{
+    color: #1873d3;
+}
+h2{
+    color: #d39417;
+}
+
+p{
+    padding: 10px 0 10px 0;
+}
+
+.isi{
+    padding: 20px;
+}
+
+.isi1{
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+    padding: 15px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer{
+    color: #ffffff;
+    background-color: rgb(34, 33, 33);
+}
+
+.copyright{
+    color: rgb(222, 222, 222);
+    text-align: center;
+    background-color: #003049;
+}
+
+.antara{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: auto;
+}
+.bawah1{
+    width: auto;
+    text-align: center;
+ }
+.bawah2{
+    width: auto;
+    text-align: center;
+}
+.bawah3{
+    width: auto;
+    text-align: center;
+}
+.bawah1 ul{
+    list-style: none;
+    padding: 0;
+}
+.bawah2 ul{
+    list-style: none;
+    padding: 0;
+}
+.bawah2 ul{
+    padding-top: 20px;
+}
+.bawah2 p{
+    padding-top: 20px;
+}
+.bawah3 ul{
+    list-style: none;
+    padding: 0;
+}
+.bawah3 ul{
+    padding-top: 20px ;
+}
+
+.anjay{
+    text-align: center;
+}
+
+.bawah1 a{
+    color: #ffffff;
+}
+.bawah2 a{
+    color: #ffffff;
+}
+.bawah3 a{
+    color: #ffffff;
+}
+
+.bawah1 a:hover{
+    color: #d39417;
+}
+.bawah2 a:hover{
+    color: #d39417;
+}
+.bawah3 a:hover{
+    color: #d39417;
+}
