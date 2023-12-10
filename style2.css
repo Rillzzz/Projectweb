@@ -55,6 +55,10 @@ footer{
     width: auto;
     text-align: center;
 }
+.media{
+    width: auto;
+    text-align: center;
+}
 .bawah1 ul{
     list-style: none;
     padding: 0;
@@ -72,13 +76,23 @@ footer{
 .bawah3 ul{
     list-style: none;
     padding: 0;
-}
-.bawah3 ul{
     padding-top: 20px ;
+}
+.bawah3 ul li{
+    padding-bottom: 15px ;
+}
+.media ul{
+    list-style: none;
+    padding: 20px 0 0 0;
+}
+.media ul li{
+    padding: 0 5px 0 5px;
+    display: inline;
 }
 
 .anjay{
     text-align: center;
+    padding: 30px;
 }
 
 .bawah1 a{

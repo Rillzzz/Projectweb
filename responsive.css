@@ -12,8 +12,55 @@
     font-weight: bold;
 }
 .table{
-    font-size-adjust: 100%;
     place-items: center;
     display: grid;
     padding-bottom: 70px;
+}
+
+@media(min-width:370px) and (max-width:670px){
+    marquee{
+        font-size: x-small;
+        padding: initial;
+    }
+    .utama h1{
+        text-align: center;
+        padding: 0 0 10px 0;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .isi img{
+        width: 250px;
+    }
+    .navbar{
+        margin: 0;
+    }
+    .navbar img{
+        width: 40px;
+        height: 40px;
+    }
+    .navbar ul{
+        height: 50px;
+        font-size: 11px;
+    }
+    .navbar ul li{
+        font-size: smaller;
+    }
+    body p{
+        font-size: 12px;
+    }
+    body h1{
+        font-size: 20px;
+    }
+    footer ul li{
+        font-size: 10px;
+    }
+    .anjay{
+        font-size: 10px;
+    }
+    .copyright p{
+        font-size: 10px;
+        padding: initial;
+    }
+    
 }
