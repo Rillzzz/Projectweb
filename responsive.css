@@ -1,5 +1,19 @@
-@media (max-height: 800px){
-    footer{
-        position: static;
-    }
+.profil {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.profil img{
+    width: 150px;
+    border-radius: 50%;
+    padding: 30px;
+}
+.profil table td{
+    padding-bottom:10px ;
+    font-weight: bold;
+}
+.table{
+    font-size-adjust: 100%;
+    place-items: center;
+    display: grid;
+    padding-bottom: 70px;
 }
