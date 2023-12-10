@@ -91,11 +91,11 @@ footer{
 .bawah3 ul li{
     padding-bottom: 15px ;
 }
-.media ul{
+.media ol{
     list-style: none;
     padding: 20px 0 0 0;
 }
-.media ul li{
+.media ol li{
     padding: 0 5px 0 5px;
     display: inline;
 }
